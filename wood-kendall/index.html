@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Your Name Here</title>
-  
-  </head>
-  <body>
-  
-  </body>
-  </html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kendall</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    box {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      gap: 2vw;
+      font-size: 15vw;
+    }
+
+    .letter {
+      color: black;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .k:hover {
+      transform: scale(1.3);
+    }
+
+    .e:hover {
+      transform: scaleX(2);
+    }
+
+    .n:hover {
+      transform: rotate(270deg);
+    }
+
+    .d:hover {
+      color: steelblue;
+    }
+
+    .a:hover {
+      opacity: 0;
+    }
+
+    .l1:hover {
+      transform: scale(1.5);
+    }
+
+    .l2:hover {
+      transform: rotate(10deg) scale(1.2);
+    }
+
+    .letter:active {
+      transform: scale(0.9) rotate(-10deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="letter k">k</div>
+    <div class="letter e">e</div>
+    <div class="letter n">n</div>
+    <div class="letter d">d</div>
+    <div class="letter a">a</div>
+    <div class="letter l1">l</div>
+    <div class="letter l2">l</div>
+  </div>
+</body>
+</html>
